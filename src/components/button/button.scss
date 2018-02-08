@@ -1,0 +1,32 @@
+
+@import '../../index.scss';
+
+.button_container{
+    border: 0.5px white;
+    border-radius: 20px;
+    padding: 10px 20px !important;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: 'CamptonBold';
+    outline: none;
+    background: none;
+    a{
+       text-decoration: none;
+       color: #ffffff;  
+    }
+    a:hover{
+        text-decoration: none;
+        color: #ffffff;  
+    }
+}
+
+.simplebutton_container{
+    border: 0.5px white;
+    border-radius: 20px;
+    padding: 10px 20px !important;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: 'Open Sans';
+    outline: none;
+    background: none;
+}

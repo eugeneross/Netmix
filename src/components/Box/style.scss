@@ -1,0 +1,100 @@
+.box_boxContainer{
+    height: 100vh;
+    padding: 0px !important; 
+    
+}
+
+.box_inputContainer{
+    height: 100%;
+    display: table;
+    text-align: center;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+
+.spanVertical{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+ .box_sideImage{
+     height: 100%;
+     padding: 0px !important;
+     background-color: rgba(0, 0, 0, 0.8);
+ }
+
+ .tab_container{
+     background: #ffffff;
+ }
+
+ .box_backNavigation{
+     height: 15%;
+     width: 100%;
+     padding-left: 5%;
+     display: table;
+     color: white;
+     span{
+        display: table-cell;
+        vertical-align: middle;
+        font-family: 'Open Sans';
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.9px;
+        text-align: left;
+        color: #ffffff;
+     }
+ }
+
+ .box_bottomText{
+     height: 15%;
+     width: 100%;
+     padding-left: 5%;
+     display: table;
+     span{
+         display: table-cell;
+         vertical-align: middle;
+     }
+ }
+
+ .box_bigTextContainer{
+     height: 70%;
+     width: 100%;
+     padding-left: 5%;
+     padding-right: 5%;
+     display: table;
+     text-align: center;
+     span:first-child{
+         display: table-cell;
+         vertical-align: middle;
+ }
+ }
+
+ .box_divContainer{
+     height: 100px;
+     font-size: 72px;
+     font-weight: bold;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: 13.5px;
+     text-align: center;
+     color: #e94444;
+    p{
+        font-size: 24px;
+        font-family: 'Open Sans';
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+        margin-bottom: 0;
+     }
+}
+
+.box_backButton{
+    color: white;
+}

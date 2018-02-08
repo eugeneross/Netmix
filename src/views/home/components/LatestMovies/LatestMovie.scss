@@ -1,0 +1,103 @@
+.latestMovies_container{
+    height: 800px;
+    width: 100%;
+    // background-image: linear-gradient(to bottom, #000000, rgba(33, 33, 33, 0.51) 51%, #000000);
+    padding: 0 !important;
+}
+
+.latestMovies_overlay{
+    height: 50%;
+    width: 100%;
+    display: table;
+    text-align: center;
+    z-index: 1;
+    span{
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+
+.latestMovies_bigText{
+  font-family: 'Open Sans';
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.latestMovies_smallText{
+  opacity: 0.75;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.latestMovies_textBoContainer{
+    width: 55%;
+    margin: auto;
+}
+
+.latestMovies_textBoContainerStyle{
+    float: left;
+    width: 70%;
+}
+
+.latestMovies_newleyReleased{
+    font-family: 'Open Sans';
+    font-size: 22px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.latestMovies_imdbButton{
+  float: left;
+  margin-top: 20px;  
+  border-radius: 2.7px;
+  border: solid 1.3px #ffffff;
+  font-family: 'Open Sans';
+  font-size: 21.3px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.latestMovies_textAndPlayButton{
+    img{
+        height:  90px;
+        width: 90px;
+        cursor: pointer;
+    }
+}
+
+.overlay_shadow{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #000000, rgba(33, 33, 33, 0.51) 51%, #000000);
+}
+
+.absolute_div{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
